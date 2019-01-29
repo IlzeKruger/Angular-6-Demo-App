@@ -1,0 +1,13 @@
+<mat-tab-group>
+  
+  <mat-tab label="Warrants">
+    <app-warrants></app-warrants>
+  </mat-tab>
+
+  <mat-tab label="Options">   
+    <ng-template matTabContent>   <!--Allow for Lazy loaded -->
+      <app-options></app-options>
+    </ng-template>
+  </mat-tab>
+
+</mat-tab-group>

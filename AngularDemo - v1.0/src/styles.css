@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    background-color:#f3f3f3;
+}
+
+.example-tooltip {
+    font-size:90%;
+}
+
+.example-tooltip {
+    font-size:90%;
+}
+
+.primaryColor {
+    color:#f3f3f3;
+}
+
+.secondaryColor {
+    color:#1a73e8;
+}

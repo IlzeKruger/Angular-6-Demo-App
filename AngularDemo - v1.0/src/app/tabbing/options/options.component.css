@@ -1,0 +1,66 @@
+.mat-column-openInterest,
+.mat-column-volume,
+.mat-column-strikePrice,
+.mat-column-lastTrade,
+.mat-column-bid {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.left-text-inside-grid {
+    position: absolute;
+    left: 5px;
+    padding-left:18px;
+    font-size: 14px;
+    color:#1a73e8;
+}
+
+.right-text-inside-grid {
+    position: absolute;
+    right: 5px;
+    padding-right:18px;
+    font-size: 14px;
+}
+
+.header-inside-grid-left {
+    padding-left:18px;
+    position: absolute;
+    left: 5px;
+    font-size: 14px;
+}
+
+.header-inside-grid-right {
+    padding-right:18px;
+    position: absolute;
+    right: 5px;
+    font-size: 14px;
+}
+
+.dataTabelHeader {
+    text-align:right; 
+    padding-left:24px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    word-wrap: break-word;
+    min-height: 50px;
+    border-bottom: 1px solid #e0e0e0; 
+    padding-top: 6px;
+    background-color: white;
+}
+
+.dateHeader {
+    text-align:right; 
+    padding-left:24px;
+    flex: 1;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    min-height: 40px;
+    border-bottom: 1px solid #e0e0e0; 
+    border-top: 1px solid #e0e0e0; 
+    padding-top: 6px;
+    background-color: #fafafa; 
+    padding-top: 1px;
+}

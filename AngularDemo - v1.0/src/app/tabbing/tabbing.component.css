@@ -1,0 +1,61 @@
+/* Styles for tab labels */
+
+/* active tab   color: white; */
+.mat-tab-labels, .mat-tab-label, .mat-tab-link {
+    font-size: 14px; 
+    background-color:#f3f3f3;
+    min-width: 25px !important;
+}
+  
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    background: white; 
+    height: 3px; 
+}
+
+.mat-tab-label:active {
+    opacity: 1;
+}
+
+mat-tab-group.mat-tab-group.mat-primary .mat-tab-body .tab-container {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+}
+
+table {
+    width:100%;
+    border: 1px solid #e0e0e0;
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+}
+
+tr:hover {
+    background: #f5f5f5;
+}
+
+.mat-table-sticky {
+    border-top:1px solid #e0e0e0;
+}
+
+/* ::ng-deep .mat-tab-underline {
+    display: none;
+} */
+
+::ng-deep .mat-header-cell .mat-sort-header-container {
+    justify-content: flex-end;
+}
+
+.mat-column-exercisePrice,  
+.mat-column-multiplier, 
+.mat-column-bid,
+.mat-column-offer, 
+.mat-column-volume {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.mat-error {
+    text-align: center;
+    margin: 20px;
+}

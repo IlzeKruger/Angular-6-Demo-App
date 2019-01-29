@@ -1,0 +1,33 @@
+.typeSelect {
+    text-align:right; 
+    padding-right:24px;
+}
+
+.typeDisplayed {
+    position: absolute; 
+    margin-top:20px;  
+    margin-left:25px;
+}
+
+.mat-header-cell.mat-column-exercisePrice,
+.mat-header-cell.mat-column-volume,
+.mat-header-cell.mat-column-multiplier,
+.mat-header-cell.mat-column-offer,
+.mat-header-cell.mat-column-bid {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.typeSelect {
+    margin-right: 10px;
+    max-height: 56px;
+}
+
+app-dropdown-select .mat-form-field {
+    margin-top: -10px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.tab-container {
+    background-color: white; 
+}

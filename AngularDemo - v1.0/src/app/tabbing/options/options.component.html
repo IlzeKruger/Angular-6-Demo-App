@@ -1,0 +1,56 @@
+<div   class="tab-container">
+  <div *ngIf="!error">
+
+    <div class="dataTabelHeader">
+        <label> Call Options </label>
+    </div>
+
+    <mat-grid-list  style="background-color: white" cols="7" rowHeight="40px">
+      <mat-grid-tile>
+        <div class="header-inside-grid-left"> Code </div>
+      </mat-grid-tile>
+      <mat-grid-tile> 
+        <div class="header-inside-grid-right"> Bid ($) </div>
+      </mat-grid-tile>
+      <mat-grid-tile> 
+        <div class="header-inside-grid-right"> Offer ($) </div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <div class="header-inside-grid-right">  Open Int. </div>
+      </mat-grid-tile>
+      <mat-grid-tile> 
+        <div class="header-inside-grid-right"> Volume </div>
+      </mat-grid-tile>
+      <mat-grid-tile> 
+        <div class="header-inside-grid-right"> Last Trade ($) </div>
+      </mat-grid-tile>
+      <mat-grid-tile> 
+        <div class="header-inside-grid-right"> Strike Price ($) </div>
+      </mat-grid-tile>
+    </mat-grid-list>
+
+    <div style="background-color: white" *ngFor="let dateGroup of optionDetails">
+      <div class="dateHeader">
+      <label>
+        <div > Expiry: {{dateGroup.expiryDate | date :'EEEE, d MMMM, y' }}</div>
+      </label>
+    </div>
+
+    <mat-grid-list cols="7" rowHeight="40px" *ngFor="let option of dateGroup.options">
+      <mat-grid-tile *ngFor="let col of displayedColumns">
+          <div *ngIf="col === 'code'" class="left-text-inside-grid" >{{option[col]}}</div>
+          <div *ngIf="col !== 'code'" class="right-text-inside-grid" >{{option[col]}}</div>
+      </mat-grid-tile>
+      <mat-divider></mat-divider>
+    </mat-grid-list>
+
+  </div>
+</div>
+
+<div *ngIf="error" >
+    <mat-error>
+      <p>Error Occurred retrieving the data</p>
+      <div>{{errorMessage}}</div>
+    </mat-error>
+</div>
+

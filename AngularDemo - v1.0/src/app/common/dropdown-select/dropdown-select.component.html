@@ -1,0 +1,7 @@
+<mat-form-field>
+  <mat-select (selectionChange)="valueSelected($event)"  [(value)]="data.defaultSelection" >
+    <mat-option *ngFor="let element of data.selectValues" [value]="element">
+      {{element}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
