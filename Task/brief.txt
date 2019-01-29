@@ -1,0 +1,24 @@
+Task Brief
+
+Your task is to create a new tab component that look similar to the given designs. 
+
+pre-requisites
+
+ - Use the warrants and options json data as mock return data for async calls
+ - Use Angular 6 or higher.
+ - You may use any packages to assist you with your developement
+ - Allow approximately 4-5 hours to complete the task.
+
+
+requirements
+
+ - Users are able to switch between Warrants view and Options view
+ - In Warrants, users able to filter the issuer types by selecting from the dropdown menu. The drop down menu allows user to view the selected issuer type only, filtering out the rest
+ - The drop down menu is populated by the available issuer types in the return data
+ - solution must meet design requirements, that is, should look similar to the designs provided
+
+ 
+Expected result
+
+ - Bundle your solution in a zip file or push you solution to a repo, for example github, bitbucket
+ - Make sure you provide clear instructions to build and run your solution locally, for example using commands like 'npm start' will run your solution
