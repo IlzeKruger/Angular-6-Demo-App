@@ -3,7 +3,8 @@ First Release of my Angular 6 Demo Application - Currently has a tab component. 
 display data read from a json file. The second tab show data making use of materials grid, also reading from a json file.
 
 Instructions
-1. Download the AngularDemo-v1 directory to a destination of your choosing on your local machine.
+1. Within Angular-6-Demo-App repository clock on 'Clone or Download' Button and download Zip.
+Download the AngularDemo-v1 directory to a destination of your choosing on your local machine.
    Note this does not include the node_modules directory.
 2. Unzip, if required.
 3. I assume that node.js and npm is installed on your machine.
