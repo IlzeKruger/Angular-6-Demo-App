@@ -3,12 +3,16 @@ First Release of my Angular 6 Demo Application - Currently has a tab component. 
 display data read from a json file. The second tab show data making use of materials grid, also reading from a json file.
 
 Instructions
-Download the AngularDemo.zip file to your machine.
-Unzip.
-I assume that node.js and npm is installed on your machine.
-You should be able to open the AngularDemo in your code editor of choice.
-Now run npm start. This should start the server.
-Then go to your browser and open localhost:4200 to run.
+1. Download the AngularDemo-v1 directory to a destination of your choosing on your local machine.
+   Note this does not include the node_modules directory.
+2. Unzip, if required.
+3. I assume that node.js and npm is installed on your machine.
+4. You should be able to open the AngularDemo-v1 directory in your code editor of choice (I normally use VsCode)
+5. In your command editor within your AngularDemo-v1 strucutre
+    run 'npm install'. This should install the required node_modules according to my package.json file. 
+    I used angular v6.1.0 and material v6.1.0 as well as rxjs 6.2.2, but this should all be isntalled with the npm install command.
+6. Run 'npm start' to start the server.
+7. Now go to your browser and open localhost:4200 to run.
 
 What was used.
 I used Angular CLI to create my app using angular version 6.1.0
@@ -38,4 +42,4 @@ assumptions. I believe it is correct, if really different to what was wanted ple
 I thought this might be the idea behind xx.000.
 
 I used Material and rxjs. I do understand the limitation and issue around the size of the packages. Within Absa we only made use of 
-Bootstrap and flexLayout for that specific reason. 
+Bootstrap and flexLayout for that specific reason. But I wanted to get some exposure to Material Design.
