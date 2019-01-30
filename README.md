@@ -8,9 +8,9 @@ Instructions
 2. Unzip, if required.
 3. I assume that node.js and npm is installed on your machine.
 4. You should be able to open the AngularDemo-v1 directory in your code editor of choice (I normally use VsCode)
-5. In your command editor within your AngularDemo-v1 strucutre
-    run 'npm install'. This should install the required node_modules according to my package.json file. 
-    I used angular v6.1.0 and material v6.1.0 as well as rxjs 6.2.2, but this should all be isntalled with the npm install command.
+5. In your command editor within your AngularDemo-v1 structure run 'npm install'. 
+    This should install the required node_modules according to my package.json file. 
+    I used angular v6.1.0 and material v6.1.0 as well as rxjs 6.2.2, but this should all be installed with the npm install command.
 6. Run 'npm start' to start the server.
 7. Now go to your browser and open localhost:4200 to run.
 
