@@ -3,15 +3,15 @@ First Release of my Angular 6 Demo Application - Currently has a tab component. 
 display data read from a json file. The second tab show data making use of materials grid, also reading from a json file.
 
 Instructions
-1. Within Angular-6-Demo-App repository clock on 'Clone or Download' Button and download Zip.
-Download the AngularDemo-v1 directory to a destination of your choosing on your local machine.
+1. Within Angular-6-Demo-App repository click on 'Clone or Download' Button and 'Download Zip'.
+2. Go to your downloads directory and extrac/copy the AngularDemo-v1.0 file to a directory of your choosing on your local machine.
    Note this does not include the node_modules directory.
-2. Unzip, if required.
 3. I assume that node.js and npm is installed on your machine.
 4. You should be able to open the AngularDemo-v1 directory in your code editor of choice (I normally use VsCode)
 5. In your command editor within your AngularDemo-v1 structure run 'npm install'. 
-    This should install the required node_modules according to my package.json file. 
-    I used angular v6.1.0 and material v6.1.0 as well as rxjs 6.2.2, but this should all be installed with the npm install command.
+   This should install the required node_modules according to my package.json file. 
+   I used angular v6.1.0 and material v6.1.0 as well as rxjs 6.2.2, but this should all be installed with the npm install command.
+6. Refresh your environment to be save and
 6. Run 'npm start' to start the server.
 7. Now go to your browser and open localhost:4200 to run.
 
